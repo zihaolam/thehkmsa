@@ -1941,6 +1941,7 @@ input, select, textarea {
 		letter-spacing: 0.05em;
 	}
 
+
 	.box.post-excerpt .image.left {
 		position: relative;
 		top: 0.5em;
@@ -2110,35 +2111,55 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		position: absolute;
-		display: block;
-		top: 2.5em;
-		left: 0;
-		width: 100%;
-		text-align: center;
+		position: fixed;
+	  display: block;
+	  top: 1.5em;
+	  left: 0;
+	  width: 100%;
+	  text-align: center;
+	  width: 100%; /* Full width */
+		z-index: 1000;
 	}
 
 		#nav > ul {
-			display: inline-block;
+			display: table;
 			border-radius: 0.35em;
 			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
 			padding: 0 1.5em 0 1.5em;
+			width: 95%;
+			margin: auto;
+			background-color: #eee;
+			justify-content: space-between;
 		}
 
 			#nav > ul > li {
-				display: inline-block;
+				background-color: #eee;
+				display: table-cell;
 				text-align: center;
 				padding: 0 1.5em 0 1.5em;
 			}
 
 				#nav > ul > li > ul {
 					display: none;
+					background-color: #eee;
+
 				}
+					#nav > ul > li > ul > li > a {
+						color: black;
+					}
+
+					#nav > ul > li > ul > li > ul {
+						display: none;
+						background-color: #eee;
+					}
+
+						#nav > ul > li > ul > li > ul > li > a {
+							color: black;
+						}
 
 				#nav > ul > li > a, #nav > ul > li > span {
 					display: block;
-					color: #eee;
-					color: rgba(255, 255, 255, 0.75);
+					color: black;
 					text-transform: uppercase;
 					text-decoration: none;
 					font-size: 0.7em;
@@ -2154,11 +2175,11 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover > a {
-					color: #fff;
+					color: grey;
 				}
 
 				#nav > ul > li.active > a, #nav > ul > li.active > span {
-					color: #fff;
+					color: grey;
 				}
 
 	.dropotron {
