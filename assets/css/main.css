@@ -1949,7 +1949,7 @@ input, select, textarea {
 	}
 
 	.box.post-excerpt h3, .box.post-excerpt p {
-		margin-left: 7em;
+		margin-left: 1.5em;
 	}
 
 /* Wrapper */
@@ -2865,7 +2865,7 @@ input, select, textarea {
 			}
 
 			.box.post-excerpt h3, .box.post-excerpt p {
-				/* margin-left: 32.5%; */
+				margin-left: 32.5%;
 			}
 
 		/* Wrapper */
