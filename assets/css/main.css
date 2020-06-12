@@ -1453,7 +1453,7 @@ input, select, textarea {
 
 	header.style1 {
 		text-align: center;
-		padding: 3em 0 3em 0;
+		padding: 3em 0 0 0;
 	}
 
 		header.style1 h2 {
@@ -1462,7 +1462,6 @@ input, select, textarea {
 			letter-spacing: 0.075em;
 			line-height: 1.5em;
 		}
-
 		header.style1 p {
 			color: #b1b4b9;
 			display: block;
@@ -1471,6 +1470,29 @@ input, select, textarea {
 			letter-spacing: 0.075em;
 			line-height: 1.5em;
 		}
+
+	header.style2 {
+		text-align: center;
+		padding: 0 0 0 0;
+	}
+
+		header.style2 h2 {
+			font-weight: 700;
+			font-size: 2em;
+			letter-spacing: 0.075em;
+			line-height: 1.5em;
+		}
+
+		header.style2 p {
+			color: #b1b4b9;
+			display: block;
+			margin: 1.15em 0 0 0;
+			font-size: 1.3em;
+			letter-spacing: 0.075em;
+			line-height: 1.5em;
+		}
+
+	}
 
 /* Table */
 
@@ -2113,7 +2135,7 @@ input, select, textarea {
 	#nav {
 		position: fixed;
 	  display: block;
-	  top: 1.5em;
+	  top: 0;
 	  left: 0;
 	  width: 100%;
 	  text-align: center;
@@ -2165,6 +2187,22 @@ input, select, textarea {
 					font-size: 0.7em;
 					letter-spacing: 0.25em;
 					height: 5em;
+					line-height: 5em;
+					-moz-transition: all .25s ease-in-out;
+					-webkit-transition: all .25s ease-in-out;
+					-o-transition: all .25s ease-in-out;
+					-ms-transition: all .25s ease-in-out;
+					transition: all .25s ease-in-out;
+					outline: 0;
+				}
+
+				#nav > ul > li > a > img {
+					color: black;
+					display: inline-block;
+					vertical-align: bottom;
+					letter-spacing: 0.25em;
+					height: 5em;
+					width: 5em;
 					line-height: 5em;
 					-moz-transition: all .25s ease-in-out;
 					-webkit-transition: all .25s ease-in-out;
@@ -2959,7 +2997,11 @@ input, select, textarea {
 			}
 
 				#content header.style1 {
-					padding-bottom: 2.5em;
+					padding-bottom: 0;
+				}
+
+				#content header.style2 {
+					padding-bottom: 0;
 				}
 
 		/* Footer */
