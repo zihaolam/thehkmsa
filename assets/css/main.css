@@ -1425,62 +1425,6 @@ article {
   margin: 0 0 4em 0;
 }
 
-<<<<<<< HEAD
-	section,
-	article {
-		margin: 0 0 4em 0;
-	}
-
-	section > :last-child,
-	article > :last-child,
-	section:last-child,
-	article:last-child {
-		margin-bottom: 0;
-	}
-
-	header.style1 {
-		text-align: center;
-		padding: 3em 0 0 0;
-	}
-
-		header.style1 h2 {
-			font-weight: 700;
-			font-size: 2em;
-			letter-spacing: 0.075em;
-			line-height: 1.5em;
-		}
-		header.style1 p {
-			color: #b1b4b9;
-			display: block;
-			margin: 1.15em 0 0 0;
-			font-size: 1.3em;
-			letter-spacing: 0.075em;
-			line-height: 1.5em;
-		}
-
-	header.style2 {
-		text-align: center;
-		padding: 0 0 0 0;
-	}
-
-		header.style2 h2 {
-			font-weight: 700;
-			font-size: 2em;
-			letter-spacing: 0.075em;
-			line-height: 1.5em;
-		}
-
-		header.style2 p {
-			color: #b1b4b9;
-			display: block;
-			margin: 1.15em 0 0 0;
-			font-size: 1.3em;
-			letter-spacing: 0.075em;
-			line-height: 1.5em;
-		}
-
-/* Table */
-=======
 section> :last-child,
 article> :last-child,
 section:last-child,
@@ -1492,7 +1436,6 @@ header.style1 {
   text-align: center;
   padding: 3em 0 0 0;
 }
->>>>>>> 07d50f135e82f42f0312e6dff1f6b8fb7f3fd098
 
 header.style1 h2 {
   font-weight: 700;
@@ -1529,7 +1472,6 @@ header.style2 p {
   font-size: 1.3em;
   letter-spacing: 0.075em;
   line-height: 1.5em;
-}
 }
 
 /* Table */
@@ -2002,7 +1944,13 @@ ul.actions.special {
   overflow: hidden;
   border-style: none;
   border-radius: 50%;
-  margin-bottom: 1em;
+  margin: 1em 0;
+}
+
+.box.center p {
+	line-height: 1em;
+	margin: 0.5em 0;
+	padding: 0;
 }
 
 .box.post-excerpt .image.left {
