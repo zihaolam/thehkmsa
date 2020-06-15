@@ -1963,7 +1963,7 @@ ul.actions.special {
   margin-left: 1.5em;
 }
 
-/*Created by HKMSA*/
+/*Created by HKMSA for Life in HK content*/
 .style-content-title h2 {
   text-align: center;
   color: #e97770;
@@ -1974,7 +1974,12 @@ ul.actions.special {
 .style-content-title ul {
   padding-left: 2.5em;
 }
-/*End of Created by HKMSA*/
+
+.style-content-title img {
+  width: 130px;
+  height: 130px;
+}
+/*End of Created by HKMSA for Life in HK content*/
 
 /* Wrapper */
 .wrapper {
