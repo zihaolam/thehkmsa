@@ -1968,6 +1968,11 @@ ul.actions.special {
   text-align: center;
   color: #e97770;
   text-transform: uppercase;
+  margin-bottom: 2em;
+}
+
+.style-content-title ul {
+  padding-left: 2.5em;
 }
 /*End of Created by HKMSA*/
 
