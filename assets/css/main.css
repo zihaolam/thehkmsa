@@ -1963,6 +1963,14 @@ ul.actions.special {
   margin-left: 1.5em;
 }
 
+/*Created by HKMSA*/
+.style-content-title h2 {
+  text-align: center;
+  color: #e97770;
+  text-transform: uppercase;
+}
+/*End of Created by HKMSA*/
+
 /* Wrapper */
 .wrapper {
   position: relative;
