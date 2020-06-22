@@ -1986,7 +1986,9 @@ ul.actions.special {
 .style-content-title img {
   width: 130px;
   height: 130px;
+  border-radius: 25%;
 }
+
 /*End of Created by HKMSA for Life in HK content*/
 
 /* Wrapper */
