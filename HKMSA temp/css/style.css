@@ -45,7 +45,7 @@ nav ul a:hover {
 
 /* --------------------------------------------------Carousel-------------------------------------------------- */
 .carousel-item img {
-    background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7));
+    filter: brightness(50%);
 }
 
 .carousel-caption {
@@ -67,6 +67,40 @@ nav ul a:hover {
 
 .carousel-caption span {
     color: #f4a261;
+}
+
+/* -------------------------------------------------Membership-------------------------------------------------- */
+#join-member {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    color: #264653;
+}
+
+#join-member img {
+    height: 300px;
+    width: 350px;
+    border: 1px solid #000;
+    margin: 50px 0;
+}
+
+#join-member h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#join-member span {
+    color: #f4a261;
+}
+
+#join-member .btn {
+    background-color: #264653;
+    color: #e9c46a;
+}
+
+#join-member a:hover {
+    background-color: #e76f51;
+    transition: 0.3s ease-in-out;
 }
 
 /* -------------------------------------------------Footer-------------------------------------------------- */
@@ -98,8 +132,6 @@ footer a:hover, #footer-icon a:hover {
     color: #e76f51;    
     transition: 0.3s ease-in-out;
 }
-
-
 
 
 /* --------------------------------------------------Media queries-------------------------------------------------- */
