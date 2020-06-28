@@ -90,6 +90,7 @@ footer a {
 
 #footer-icon p {
     font-size: 13px;
+    font-weight: bold;
 }
 
 footer a:hover, #footer-icon a:hover {
