@@ -1,0 +1,136 @@
+/* --------------------------------------------------Global-------------------------------------------------- */
+*, body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* --------------------------------------------------Navbar-------------------------------------------------- */
+nav {
+    background-color: #e9c46a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+}
+
+nav ul li {
+    padding-right: 15px;
+}
+
+nav ul a {
+    font-weight: bold;
+    color: #264653;
+}
+
+nav ul a:hover {
+    color: #e76f51;
+    transition: 0.3s ease-in-out;
+}
+
+/* --------------------------------------------------Hamburger toggler-------------------------------------------------- */
+.fa-1x {
+    font-size: 1.5rem;
+}
+
+.navbar-toggler .custom-toggler {
+    cursor: pointer;
+}
+
+.custom-toggler-color {
+    color: #264653;
+}
+
+/* --------------------------------------------------Carousel-------------------------------------------------- */
+.carousel-item img {
+    background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7));
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-22.5%);
+    bottom: initial;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.carousel-caption hr {
+    border: 0.1px solid #ccc;
+}
+
+.carousel-caption h3 {
+    font-weight: bold;
+}
+
+.carousel-caption span {
+    color: #f4a261;
+}
+
+/* -------------------------------------------------Footer-------------------------------------------------- */
+footer {
+    background-color: #264653;
+    color: #e9c46a;
+    padding: 100px 0 20px 0;
+}
+
+footer a {
+    color: #f4a261;
+}
+
+#footer-icon {
+    padding-right: 5%;
+}
+
+#footer-icon a {
+    color: #e9c46a;
+}
+
+#footer-icon p {
+    font-size: 13px;
+}
+
+footer a:hover, #footer-icon a:hover {
+    text-decoration: none;
+    color: #e76f51;    
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+/* --------------------------------------------------Media queries-------------------------------------------------- */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .carousel-caption {
+        top: 25%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .carousel-caption {
+        top: 37.5%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .carousel-caption {
+        top: 45%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .carousel-caption {
+        top: 52.5%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
