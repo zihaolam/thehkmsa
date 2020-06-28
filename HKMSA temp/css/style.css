@@ -71,22 +71,18 @@ nav ul a:hover {
 
 /* -------------------------------------------------Membership-------------------------------------------------- */
 #join-member {
-    margin: 50px 0;
-    display: flex;
-    justify-content: center;
     color: #264653;
 }
 
 #join-member img {
-    height: 300px;
-    width: 350px;
-    border: 1px solid #000;
+    height: 500px;
     margin: 50px 0;
 }
 
 #join-member h3 {
     text-align: center;
     font-weight: bold;
+    margin-bottom: 15px;
 }
 
 #join-member span {
@@ -96,6 +92,7 @@ nav ul a:hover {
 #join-member .btn {
     background-color: #264653;
     color: #e9c46a;
+    margin-bottom: 50px;
 }
 
 #join-member a:hover {
