@@ -9,11 +9,11 @@
 /* --------------------------------------------------Navbar-------------------------------------------------- */
 nav {
     background-color: #e9c46a;
-    position: fixed;
-    top: 0;
     left: 0;
     width: 100%;
     display: block;
+    position: fixed;
+    top: 0;
 }
 
 nav ul li {
@@ -67,6 +67,11 @@ nav ul a:hover {
 
 .carousel-caption span {
     color: #f4a261;
+}
+
+/* -------------------------------------------------Main-------------------------------------------------- */
+.main {
+  margin: 80px;
 }
 
 /* -------------------------------------------------Membership-------------------------------------------------- */
@@ -126,13 +131,18 @@ footer a {
 
 footer a:hover, #footer-icon a:hover {
     text-decoration: none;
-    color: #e76f51;    
+    color: #e76f51;
     transition: 0.3s ease-in-out;
+}
+
+#slider {
+ position: relative;
+ top: 80px;
 }
 
 
 /* --------------------------------------------------Media queries-------------------------------------------------- */
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down) *
 @media only screen and (max-width: 600px) {
     .carousel-caption {
         top: 25%;
