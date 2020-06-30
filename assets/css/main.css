@@ -127,11 +127,12 @@ a {
 
 a:hover {
   text-decoration: none;
+  color: #e76f51;
 }
 
 strong, b {
   font-weight: 700;
-  color: #484d55;
+  color: #f4a261;
 }
 
 blockquote {
@@ -1677,7 +1678,7 @@ input[type="submit"].style1,
 input[type="reset"].style1,
 button.style1,
 .button.style1 {
-  background: #e97770 url("images/overlay.png");
+  background: #f4a261 url("images/overlay.png");
   color: #fff;
 }
 
@@ -1850,7 +1851,7 @@ ul.actions.special {
 }
 
 .feature-list h3 {
-  color: #e97770 !important;
+  color: #f4a261 !important;
   margin: -0.35em 0 0.75em 0;
   font-size: 1.15em;
   letter-spacing: 0.05em;
@@ -1974,7 +1975,7 @@ ul.actions.special {
 /*Created by HKMSA for Life in HK content*/
 .style-content-title h2 {
   text-align: center;
-  color: #e97770;
+  color: #f4a261;
   text-transform: uppercase;
   margin-bottom: 2em;
 }
@@ -2041,13 +2042,13 @@ ul.actions.special {
 }
 
 .wrapper.style1 {
-  background: #e97770 url("images/overlay.png");
+  background: #f4a261 url("images/overlay.png");
   color: #eee;
   color: rgba(255, 255, 255, 0.75);
 }
 
 .wrapper.style1 .title {
-  background: #e97770 url("images/overlay.png");
+  background: #f4a261 url("images/overlay.png");
   color: #fff;
 }
 
@@ -2074,12 +2075,12 @@ ul.actions.special {
 }
 
 .wrapper.style4 {
-  background: grey url("images/overlay.png");
+  background: #2a9d8f url("images/overlay.png");
 	color: white;
 }
 
 .wrapper.style4 .title {
-  background: grey url("images/overlay.png");
+  background: #2a9d8f url("images/overlay.png");
   color: white;
 }
 
@@ -2094,7 +2095,7 @@ ul.actions.special {
 }
 
 /* Header */
-#header: main{
+#header main{
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -2109,12 +2110,12 @@ ul.actions.special {
   justify-content: center;
   position: relative;
   height: 24em;
-  background: url("../../images/homepage.jpeg") center center;
+  background: url("/images/KLCC.jpg") center center;
   background-size: cover;
   padding: 0;
 }
 
-#header-home: main{
+#header-home main{
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -2129,7 +2130,7 @@ ul.actions.special {
   justify-content: center;
   position: relative;
   height: 24em;
-  background: url("../../images/homepage.jpeg") center center;
+  background: url("/images/KLCC.jpg") center center;
   background-size: cover;
   padding: 0;
 }
@@ -2261,6 +2262,10 @@ ul.actions.special {
   color: grey;
 }
 
+.navbar-brand {
+  padding-left: 27.5%;
+}
+
 .dropotron {
   background: #222835 url("images/overlay.png");
   background-color: rgba(44, 50, 63, 0.925);
@@ -2367,13 +2372,32 @@ ul.actions.special {
 /* Main */
 /* Footer */
 #footer {
-  background: #282b34 url("images/overlay.png");
-  color: #eee;
-  color: rgba(255, 255, 255, 0.5);
+  background: #264653 url("images/overlay.png");
+  color: #e9c46a;
+  /* color: rgba(255, 255, 255, 0.5); */
   padding-bottom: 6em;
 }
 
-#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b, #footer a {
+#footer a {
+  text-decoration: none;
+  color: #e9c46a;
+}
+
+#footer a:hover {
+  text-decoration: none;
+  color: #e76f51;
+}
+
+#footer i {
+  margin-top: 70px;;
+  padding-left: 2em;
+}
+
+#footer p {
+  display: inline;
+}
+
+#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer b {
   color: #fff;
 }
 
@@ -2382,59 +2406,8 @@ ul.actions.special {
   border-top-color: rgba(255, 255, 255, 0.05);
 }
 
-#footer form input[type="text"],
-#footer form input[type="email"],
-#footer form input[type="password"],
-#footer form select,
-#footer form textarea {
-  background: #ccc;
-  box-shadow: none;
-}
-
-#footer form input[type="text"]:focus,
-#footer form input[type="email"]:focus,
-#footer form input[type="password"]:focus,
-#footer form select:focus,
-#footer form textarea:focus {
-  background: #fff;
-}
-
-#footer input[type="button"],
-#footer input[type="submit"],
-#footer input[type="reset"],
-#footer button,
-#footer .button {
-  color: #fff;
-  box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.5);
-}
-
-#footer input[type="button"]:hover,
-#footer input[type="submit"]:hover,
-#footer input[type="reset"]:hover,
-#footer button:hover,
-#footer .button:hover {
-  color: #fff;
-  box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.65);
-}
-
-#footer input[type="button"]:active,
-#footer input[type="submit"]:active,
-#footer input[type="reset"]:active,
-#footer button:active,
-#footer .button:active {
-  box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.75);
-}
-
-#footer input[type="button"].style2:active,
-#footer input[type="submit"].style2:active,
-#footer input[type="reset"].style2:active,
-#footer button.style2:active,
-#footer .button.style2:active {
-  box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.75);
-}
-
 #footer .title {
-  background: #282b34 url("images/overlay.png");
+  background: #264653 url("images/overlay.png");
   color: #eee;
 }
 
@@ -2463,6 +2436,12 @@ ul.actions.special {
 #footer .feature-list h3:before {
   background: #3d4249 url("images/overlay.png");
 }
+
+#footer .footer-logo {
+  text-align: center;
+  padding-right: 5%;
+}
+
 
 /* Copyright */
 #copyright {
@@ -2497,11 +2476,11 @@ ul.actions.special {
 }
 
 #copyright a {
-  color: inherit;
+  color: #f4a261;
 }
 
 #copyright a:hover {
-  color: #fff;
+  color: #e76f51;
 }
 
 /* XLarge */
