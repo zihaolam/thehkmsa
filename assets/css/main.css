@@ -175,7 +175,33 @@ p, ul, ol, dl, table, blockquote, form {
   margin-bottom: 2em;
 }
 
+/* Carousel */
+.carousel-item img {
+    filter: brightness(50%);
+    width: 100%;
+    height: 600px;
+}
 
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-22.5%);
+    bottom: initial;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.carousel-caption hr {
+    border: 0.1px solid #ccc;
+}
+
+.carousel-caption h3 {
+    font-weight: bold;
+}
+
+.carousel-caption span {
+    color: #f4a261;
+}
 
 /* Container */
 .container {
@@ -1435,6 +1461,7 @@ article:last-child {
   margin-bottom: 0;
 }
 
+
 header.style1 {
   text-align: center;
   padding: 3em 0 0 0;
@@ -2110,7 +2137,7 @@ ul.actions.special {
   justify-content: center;
   position: relative;
   height: 24em;
-  background: url("/images/KLCC.jpg") center center;
+  background: url("images/KLCC.jpg") center center;
   background-size: cover;
   padding: 0;
 }
@@ -2129,8 +2156,7 @@ ul.actions.special {
   -ms-justify-content: center;
   justify-content: center;
   position: relative;
-  height: 24em;
-  background: url("/images/KLCC.jpg") center center;
+  background: url("images/KLCC.jpg") center center;
   background-size: cover;
   padding: 0;
 }
@@ -2246,6 +2272,7 @@ ul.actions.special {
   height: 35px;
   vertical-align: middle;
   width: 70px;
+  padding: 0 3px 9px 3px;
   -moz-transition: all .25s ease-in-out;
   -webkit-transition: all .25s ease-in-out;
   -o-transition: all .25s ease-in-out;
