@@ -2079,6 +2079,17 @@ ul.actions.special {
   color: #fff;
 }
 
+.wrapper.about-us {
+  background: #2A809E url("images/overlay.png");
+  color: #eee;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.wrapper.about-us .title {
+  background: #2A809E url("images/overlay.png");
+  color: #fff;
+}
+
 .wrapper.style1-home .title {
   background: #fff;
   color: black;
@@ -2112,12 +2123,16 @@ ul.actions.special {
 }
 
 .wrapper.style4 {
-  background: #2a9d8f url("images/overlay.png");
+  background: #264653 url("images/overlay.png");
 	color: white;
 }
 
+.wrapper.style4 > a {
+  color: white;
+}
+
 .wrapper.style4 .title {
-  background: #2a9d8f url("images/overlay.png");
+  background: #264653 url("images/overlay.png");
   color: white;
 }
 
@@ -2165,6 +2180,7 @@ ul.actions.special {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
+  height: 24em;
   position: relative;
   background: url("images/KLCC.jpg") center center;
   background-size: cover;
