@@ -2147,7 +2147,7 @@ ul.actions.special {
 }
 
 /* Header */
-#header main{
+#header {
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -2161,8 +2161,8 @@ ul.actions.special {
   -ms-justify-content: center;
   justify-content: center;
   position: relative;
-  height: 24em;
-  background: url("images/KLCC.jpg") center center;
+  height: 20em;
+  background: url("../../images/pagetopsharpened.png") center center;
   background-size: cover;
   padding: 0;
 }
@@ -2182,7 +2182,7 @@ ul.actions.special {
   justify-content: center;
   height: 24em;
   position: relative;
-  background: url("images/KLCC.jpg") center center;
+  background: url("../../images/KLCC.jpg") center center;
   background-size: cover;
   padding: 0;
 }
