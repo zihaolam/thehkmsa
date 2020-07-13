@@ -2000,6 +2000,7 @@ ul.actions.special {
 }
 
 /*Created by HKMSA for Life in HK content*/
+
 .style-content-title h2 {
   text-align: center;
   color: #f4a261;
@@ -3046,7 +3047,7 @@ ul.actions.special {
 
   /* Generalinfo */
   #generalinfo p, span, a {
-    color: black;
+    /* color: black; */
   }
 
   /* Footer */
