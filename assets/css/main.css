@@ -2028,7 +2028,7 @@ ul.actions.special {
 
 .style-content-title h2 {
   text-align: center;
-  color: #f4a261;
+  color: #484D55;
   text-transform: uppercase;
   margin-bottom: 2em;
 }
@@ -2517,7 +2517,7 @@ ul.actions.special {
 }
 
 .transport-box .text a:hover {
-  color: #e9c46a;
+  color: #fff;
 }
 
 /* Footer */
