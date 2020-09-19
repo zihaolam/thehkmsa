@@ -2795,7 +2795,7 @@ ul.actions.special {
     top: 0;
     width: 100%;
     z-index: 10001;
-    background: none;
+    background: #e9c46a;/*changed19092020*/
   }
 
   #titleBar .title {
@@ -2831,9 +2831,9 @@ ul.actions.special {
     transition: all .15s ease-in-out;
     text-decoration: none;
     content: '\f0c9';
-    font-size: 14px;
+    font-size: 16px;/*changed19092020*/
     position: absolute;
-    top: 6px;
+    top: 3px;/*changed19092020*/
     left: 6px;
     display: block;
     width: 54px;
@@ -2841,7 +2841,7 @@ ul.actions.special {
     line-height: 38px;
     text-align: center;
     color: rgba(255, 255, 255, 0.75);
-    background-color: rgba(92, 95, 103, 0.5);
+    background-color: none;/*changed19092020*/
     border-radius: 0.25em;
   }
 
